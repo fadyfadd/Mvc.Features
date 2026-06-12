@@ -1,0 +1,53 @@
+##                           ##
+##   .gitignore for .NET MVC ##
+##                           ##
+
+#   User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#   Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leasePublic/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bsearch/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+#   Visual Studio Roslyn cache directories
+*.osscache
+*.suo
+
+#   MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Mm]odules/
+
+#   Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+#   Visual Studio Studio Mac / Rider
+.idea/
+*.sln.iml
+
+#   All Database files (if using localDB or SQLite)
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+#   Core ASP.NET Core secrets / configuration
